@@ -2,7 +2,6 @@ from multilayer_peceptrons import MultiLayerPerceptron
 
 
 if __name__ == '__main__':
-
     mlp = MultiLayerPerceptron(layers=[2, 2, 1])
     print("\nTraining Neural Network as an XOR Gate...\n")
     for i in range(3000):
